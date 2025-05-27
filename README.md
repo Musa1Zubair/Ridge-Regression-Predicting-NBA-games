@@ -1,0 +1,9 @@
+- Used Playwright to scrape important stats and box scores from the last two NBA seasons straight from the web
+- Parsed over 2,000 HTML files using Beautiful Soup, grabbing everything from game links to specific stat tags
+- Took all the raw data and used Pandas to build clean, organized Data Frames with just the stats that mattered
+- Once each box score was turned into a usable format, I merged everything into one big CSV for modeling
+- Ran a Ridge Regression model to predict NBA game outcomes based on historical stats and team performance
+- Focused on figuring out which columns actually helped the model and dropped the ones that didn’t move the needle
+- Started with a prediction accuracy of 52.6%, then improved it to 64.8% by adding rolling averages and opponent context
+- Built logic to predict live games by plugging in the latest stats and simulating matchups between teams
+- Overall, combined data engineering, feature selection, and time-aware modelling to build a practical NBA game predictor
