@@ -24,7 +24,7 @@ The goal was to explore how historical performance metrics and contextual featur
 
 <!-- Replace the file path below with your screenshot -->
 
-![Project Screenshot](images/project_screenshot.png)
+![Project Screenshot](Model_Accuracy.png)
 
 *Example: Model predictions, data pipeline visualization, or output results.*
 
